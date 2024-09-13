@@ -4,7 +4,7 @@ import BannerComponent from "./Banner/BannerComponent";
 
 const App = () => {
   return (
-    <div>
+    <div className="p-9">
       <BannerComponent/>     
       <Another/> 
     </div>

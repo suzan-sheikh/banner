@@ -9,10 +9,20 @@
     top: 0;
     width: 100%;
     height: 100vh;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    background-image: url('./assets/right.webp');
+    background-position: right;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* padding-right: 20px; */
     /* background-color: #ef080831; */
   }
   
   .youtube-link {
+
     position: absolute;
     left: 0;
     top: 0;
