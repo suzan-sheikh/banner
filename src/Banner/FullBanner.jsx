@@ -44,12 +44,13 @@ const FullBanner = () => {
           centeredSlides={true}
           speed={800}
           autoplay={{
-            delay:1000,
+            delay:2000,
           }}
           modules={[Autoplay]}
         >
           {langs.map((lang, i) => (
             <SwiperSlide key={i}>
+
               <div className="h-96 flex">
                 <div className={`card ${active === i && 'card-active'} bg-red-600 bg-opacity-30 ${lang.color} border-red-600`}>
                   <div className="flex items-center justify-center logo">

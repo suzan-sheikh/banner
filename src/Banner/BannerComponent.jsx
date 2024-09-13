@@ -133,10 +133,11 @@ const BannerComponent = () => {
 
 
       <div className='absolute left-0 top-0 grid gap-4 grid-cols-5 p-4'>
-        <div className='text-justify col-span-2 text-black'>
-          <h2>AetherZenIT Limited</h2>
-          <p>Since pioneering the digital universe 15 years ago, Analyzen has evolved into a multiverse of reanalyzing creativity’s core. We seamlessly weave science into the art of advertising communication, encompassing all media from offline to digital, and intricately infuse art into the science of technological advancement.</p>
-          <p>A league of versatile superheroes at Analyzen shapes a broad spectrum of solutions. This encompasses brand strategy and architecture, advertising content development, web and search experiences, immersive events & activations, influencer and content marketing, data analytics, community management and insight mining, media buying, enterprise software development, apps and games craftsmanship, and more.</p>
+        <div className='flex justify-center flex-col text-justify col-span-2 text-black'>
+          <h3 className='text-4xl font-semibold text-red-500'>Software Development Agency</h3>
+          <h2 className='text-4xl font-semibold text-red-500'>AetherZenIT</h2>
+          <p className='mt-4 text-white text-sm'>At AetherZen, we craft custom software solutions designed to propel your business forward. From groundbreaking apps to seamless integrations, our expert team delivers technology that meets today’s needs while anticipating tomorrow’s opportunities.</p>
+          <button className='text-red-500 btn w-1/2 mt-4'>Learn More</button>
         </div>
         <div className='text-justify col-span-3'>
           <FullBanner/>
