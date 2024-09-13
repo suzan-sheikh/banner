@@ -128,7 +128,7 @@ const BannerComponent = () => {
   }, [rgb]);
 
   return (
-    <div className="App">
+    <div>
       <canvas id="canvas" ref={canvasRef}></canvas>  
 
 
