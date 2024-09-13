@@ -1,12 +1,18 @@
-import Another from "./Another/Another";
-import BannerComponent from "./Banner/BannerComponent";
+
 
 
 const App = () => {
   return (
-    <div className="p-9">
-      <BannerComponent/>     
-      <Another/> 
+    <div>
+      <div className="h-screen bg-[#00052a] flex items-center justify-center">
+        <div className="max-w-5xl">
+          
+        </div>
+      </div>
+
+
+      {/* <BannerComponent/>     
+      <Another/>  */}
     </div>
   );
 };
