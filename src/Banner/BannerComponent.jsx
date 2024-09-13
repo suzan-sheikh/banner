@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
 import { useEffect, useRef } from 'react';
+import FullBanner from './FullBanner';
 
 const BannerComponent = () => {
   const canvasRef = useRef(null);
@@ -131,14 +132,14 @@ const BannerComponent = () => {
       <canvas id="canvas" ref={canvasRef}></canvas>  
 
 
-      <div className='absolute left-0 top-0 grid gap-10 grid-cols-5 p-4'>
-        <div className='text-justify col-span-2 text-black border-2'>
+      <div className='absolute left-0 top-0 grid gap-4 grid-cols-5 p-4'>
+        <div className='text-justify col-span-2 text-black'>
           <h2>AetherZenIT Limited</h2>
           <p>Since pioneering the digital universe 15 years ago, Analyzen has evolved into a multiverse of reanalyzing creativity’s core. We seamlessly weave science into the art of advertising communication, encompassing all media from offline to digital, and intricately infuse art into the science of technological advancement.</p>
           <p>A league of versatile superheroes at Analyzen shapes a broad spectrum of solutions. This encompasses brand strategy and architecture, advertising content development, web and search experiences, immersive events & activations, influencer and content marketing, data analytics, community management and insight mining, media buying, enterprise software development, apps and games craftsmanship, and more.</p>
         </div>
-        <div className='text-justify col-span-3 border-2'>
-          <h2>This is backgroundImage</h2>
+        <div className='text-justify col-span-3'>
+          <FullBanner/>
         </div>
       </div>      
     </div>

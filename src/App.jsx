@@ -1,18 +1,14 @@
+import BannerComponent from "./Banner/BannerComponent";
+import FullBanner from "./Banner/FullBanner";
 
 
 
 const App = () => {
   return (
     <div>
-      <div className="h-screen bg-[#00052a] flex items-center justify-center">
-        <div className="max-w-5xl">
-          
-        </div>
-      </div>
+      {/* <FullBanner/> */}
 
-
-      {/* <BannerComponent/>     
-      <Another/>  */}
+      <BannerComponent/>   
     </div>
   );
 };
